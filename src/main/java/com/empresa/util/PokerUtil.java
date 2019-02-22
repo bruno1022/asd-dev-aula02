@@ -55,7 +55,7 @@ public class PokerUtil {
 		//Avalia qual a maior carta com base na primeira posição da string
 		if (ordemCartas.get(numeroCarta1) > ordemCartas.get(numeroCarta2)) {
 			return CARTA_1_MAIOR_VALOR;
-		} else if (ordemCartas.get(numeroCarta1) > ordemCartas.get(numeroCarta2)) {
+		} else if (ordemCartas.get(numeroCarta1) < ordemCartas.get(numeroCarta2)) {
 			return CARTA_2_MAIOR_VALOR;
 		} else {
 			return CARTAS_MESMO_VALOR;
